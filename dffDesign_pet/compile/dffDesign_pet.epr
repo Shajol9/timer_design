@@ -1,0 +1,14 @@
+"../src/dff.v"	1
+"../src/fd1hz.sv"	1
+"../src/GrayCounter_4b_tb.sv"	1
+"../src/dff_tb.v"	1
+"../src/GrayCounter_4b.sv"	1
+"../src/upcounter_tb.sv"	1
+"../src/upcounter.sv"	1
+"../src/tff.sv"	1
+"../src/fd1hz_tb.sv"	1
+"../src/tff_tb.sv"	1
+"../src/RippleCounter_4b .sv"	1
+"../src/RippleCounter_4b_tb.sv"	1
+"../src/counter.sv"	1
+"../src/counter_tb.sv"	1

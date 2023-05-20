@@ -1,0 +1,14 @@
+i<>.\src\dff.v
+i<>.\src\dff_tb.v
+i<>.\src\upcounter.sv
+i<>.\src\upcounter_tb.sv
+i<>.\src\fd1hz.sv
+i<>.\src\fd1hz_tb.sv
+i<>.\src\4bGrayCounter.sv
+i<>.\src\GrayCounter_4b_tb.sv
+i<>.\src\tff.sv
+i<>.\src\tff_tb.sv
+i<>.\src\RippleCounter_4b .sv
+i<>.\src\RippleCounter_4b_tb.sv
+i<>.\src\counter.sv
+i<>.\src\counter_tb.sv

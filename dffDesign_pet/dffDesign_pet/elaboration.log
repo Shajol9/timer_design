@@ -1,0 +1,26 @@
+Active-HDL 13.0.376.8320 2023-05-20 09:30:15
+
+Elaboration top modules:
+Verilog Module                counter_tb
+
+
+-------------------------------------------------------------------------------------------------
+Verilog Module          | Library       | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------
+counter_tb              | dffdesign_pet |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+counter                 | dffdesign_pet |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+GrayCounter_4b          | dffdesign_pet |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+dff                     | dffdesign_pet |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+-------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------------
+dffdesign_pet           | None
+-------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +w_nets +access +r +access +r+w counter_tb
+
+
+The performance of simulation is reduced. Version Student Edition
