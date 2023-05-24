@@ -1,0 +1,827 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/ms_dff.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: dff_tb upcounter_tb fd1hz_tb GrayCounter_4b_tb tff_tb RippleCounter_4b_tb counter_tb ms_dff_tb SyncCounter_4b_tb SyncCounter_tb PLSC PLSC_4b_tb SCwith8bGC_tb AsRippleCounter_tb ms_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/ms_dff.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: dff_tb upcounter_tb fd1hz_tb GrayCounter_4b_tb tff_tb RippleCounter_4b_tb counter_tb ms_dff_tb SyncCounter_4b_tb SyncCounter_tb PLSC PLSC_4b_tb SCwith8bGC_tb AsRippleCounter_tb ms_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +access +r +access +r+w ms_dff
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 10 (100.00%) primitives and 0 other processes in SLP
+# SLP: 0 signals in SLP and 10 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5368 kB (elbread=427 elab2=4806 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\shazz\Downloads\NTNU\MS_in_ESD\4th_semestar\Specialization_project\timer_design\dffDesign_pet\src\wave.asdb
+#  00:06, Wednesday, 24 May 2023
+#  Simulation has been initialized
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +access +r +access +r+w ms_dff_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELBREAD: Warning: ELBREAD_0054 ms_tb.sv (7): Too few port connections. Region: /ms_dff_tb/dut_ms_dff
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 10 (83.33%) primitives and 2 (16.67%) other processes in SLP
+# SLP: 0 signals in SLP and 16 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5377 kB (elbread=427 elab2=4815 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\shazz\Downloads\NTNU\MS_in_ESD\4th_semestar\Specialization_project\timer_design\dffDesign_pet\src\wave.asdb
+#  00:06, Wednesday, 24 May 2023
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/wave.asdb'.
+run
+# KERNEL: clk time=                    0d=1, clr =1, q=x
+# KERNEL: clk time=                   28d=1, clr =0, q=x
+# KERNEL: clk time=                   56d=1, clr =1, q=x
+# KERNEL: clk time=                   84d=1, clr =0, q=x
+# KERNEL: clk time=                   98d=0, clr =0, q=x
+# KERNEL: clk time=                  112d=1, clr =0, q=x
+# KERNEL: clk time=                  126d=0, clr =0, q=x
+# KERNEL: clk time=                  140d=1, clr =1, q=x
+# KERNEL: clk time=                  154d=0, clr =1, q=x
+# KERNEL: clk time=                  168d=1, clr =1, q=x
+# KERNEL: clk time=                  182d=0, clr =1, q=x
+# KERNEL: clk time=                  196d=1, clr =0, q=x
+# KERNEL: clk time=                  210d=0, clr =0, q=x
+# KERNEL: clk time=                  224d=1, clr =0, q=x
+# KERNEL: clk time=                  238d=0, clr =0, q=x
+# KERNEL: clk time=                  252d=1, clr =0, q=x
+# KERNEL: clk time=                  266d=0, clr =0, q=x
+# KERNEL: clk time=                  280d=1, clr =0, q=x
+# KERNEL: clk time=                  294d=0, clr =0, q=x
+# RUNTIME: Info: RUNTIME_0068 ms_tb.sv (46): $finish called.
+# KERNEL: Time: 304 us,  Iteration: 0,  Instance: /ms_dff_tb,  Process: @INITIAL#12_2@.
+# KERNEL: stopped at time: 304 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +access +r +access +r+w ms_dff_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/ms_dff.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: dff_tb upcounter_tb fd1hz_tb GrayCounter_4b_tb tff_tb RippleCounter_4b_tb counter_tb ms_dff_tb SyncCounter_4b_tb SyncCounter_tb PLSC PLSC_4b_tb SCwith8bGC_tb AsRippleCounter_tb ms_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELBREAD: Warning: ELBREAD_0054 ms_tb.sv (7): Too few port connections. Region: /ms_dff_tb/dut_ms_dff
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 10 (83.33%) primitives and 2 (16.67%) other processes in SLP
+# SLP: 0 signals in SLP and 16 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5377 kB (elbread=427 elab2=4815 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\shazz\Downloads\NTNU\MS_in_ESD\4th_semestar\Specialization_project\timer_design\dffDesign_pet\src\wave.asdb
+#  00:07, Wednesday, 24 May 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/wave.asdb'.
+run
+# KERNEL: clk time=                    0d=1, clr =1, q=1
+# KERNEL: clk time=                   15d=1, clr =1, q=x
+# KERNEL: clk time=                   28d=1, clr =0, q=x
+# KERNEL: clk time=                   56d=1, clr =1, q=x
+# KERNEL: clk time=                   61d=1, clr =1, q=1
+# KERNEL: clk time=                   76d=1, clr =1, q=x
+# KERNEL: clk time=                   84d=1, clr =0, q=x
+# KERNEL: clk time=                   98d=0, clr =0, q=x
+# KERNEL: clk time=                  112d=1, clr =0, q=x
+# KERNEL: clk time=                  126d=0, clr =0, q=x
+# KERNEL: clk time=                  140d=1, clr =1, q=x
+# KERNEL: clk time=                  153d=1, clr =1, q=1
+# KERNEL: clk time=                  154d=0, clr =1, q=1
+# KERNEL: clk time=                  168d=0, clr =1, q=x
+# KERNEL: clk time=                  168d=1, clr =1, q=x
+# KERNEL: clk time=                  182d=0, clr =1, q=x
+# KERNEL: clk time=                  183d=0, clr =1, q=1
+# KERNEL: clk time=                  196d=1, clr =0, q=1
+# KERNEL: clk time=                  210d=0, clr =0, q=1
+# KERNEL: clk time=                  224d=1, clr =0, q=1
+# KERNEL: clk time=                  238d=0, clr =0, q=1
+# KERNEL: clk time=                  252d=1, clr =0, q=1
+# KERNEL: clk time=                  266d=0, clr =0, q=1
+# KERNEL: clk time=                  280d=1, clr =0, q=1
+# KERNEL: clk time=                  294d=0, clr =0, q=1
+# RUNTIME: Info: RUNTIME_0068 ms_tb.sv (46): $finish called.
+# KERNEL: Time: 304 us,  Iteration: 0,  Instance: /ms_dff_tb,  Process: @INITIAL#12_2@.
+# KERNEL: stopped at time: 304 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +access +r +access +r+w ms_dff_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/ms_dff.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: dff_tb upcounter_tb fd1hz_tb GrayCounter_4b_tb tff_tb RippleCounter_4b_tb counter_tb ms_dff_tb SyncCounter_4b_tb SyncCounter_tb PLSC PLSC_4b_tb SCwith8bGC_tb AsRippleCounter_tb ms_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELBREAD: Warning: ELBREAD_0054 ms_tb.sv (7): Too few port connections. Region: /ms_dff_tb/dut_ms_dff
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 10 (83.33%) primitives and 2 (16.67%) other processes in SLP
+# SLP: 0 signals in SLP and 16 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5377 kB (elbread=427 elab2=4815 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\shazz\Downloads\NTNU\MS_in_ESD\4th_semestar\Specialization_project\timer_design\dffDesign_pet\src\wave.asdb
+#  00:10, Wednesday, 24 May 2023
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/wave.asdb'.
+run
+# KERNEL: clk time=                    0d=1, clr =1, q=x
+# KERNEL: clk time=                   15d=1, clr =1, q=0
+# KERNEL: clk time=                   28d=1, clr =0, q=0
+# KERNEL: clk time=                   56d=1, clr =1, q=0
+# KERNEL: clk time=                   61d=1, clr =1, q=x
+# KERNEL: clk time=                   76d=1, clr =1, q=0
+# KERNEL: clk time=                   84d=1, clr =0, q=0
+# KERNEL: clk time=                   98d=0, clr =0, q=0
+# KERNEL: clk time=                  112d=1, clr =0, q=0
+# KERNEL: clk time=                  126d=0, clr =0, q=0
+# KERNEL: clk time=                  140d=1, clr =1, q=0
+# KERNEL: clk time=                  153d=1, clr =1, q=x
+# KERNEL: clk time=                  154d=0, clr =1, q=x
+# KERNEL: clk time=                  168d=0, clr =1, q=0
+# KERNEL: clk time=                  168d=1, clr =1, q=0
+# KERNEL: clk time=                  182d=0, clr =1, q=0
+# KERNEL: clk time=                  183d=0, clr =1, q=x
+# KERNEL: clk time=                  196d=1, clr =0, q=x
+# KERNEL: clk time=                  210d=0, clr =0, q=x
+# KERNEL: clk time=                  224d=1, clr =0, q=x
+# KERNEL: clk time=                  238d=0, clr =0, q=x
+# KERNEL: clk time=                  252d=1, clr =0, q=x
+# KERNEL: clk time=                  266d=0, clr =0, q=x
+# KERNEL: clk time=                  280d=1, clr =0, q=x
+# KERNEL: clk time=                  294d=0, clr =0, q=x
+# RUNTIME: Info: RUNTIME_0068 ms_tb.sv (46): $finish called.
+# KERNEL: Time: 304 us,  Iteration: 0,  Instance: /ms_dff_tb,  Process: @INITIAL#12_2@.
+# KERNEL: stopped at time: 304 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +access +r +access +r+w ms_dff_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/ms_dff.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: dff_tb upcounter_tb fd1hz_tb GrayCounter_4b_tb tff_tb RippleCounter_4b_tb counter_tb ms_dff_tb SyncCounter_4b_tb SyncCounter_tb PLSC PLSC_4b_tb SCwith8bGC_tb AsRippleCounter_tb ms_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELBREAD: Warning: ELBREAD_0054 ms_tb.sv (7): Too few port connections. Region: /ms_dff_tb/dut_ms_dff
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 10 (83.33%) primitives and 2 (16.67%) other processes in SLP
+# SLP: 0 signals in SLP and 15 (93.75%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5377 kB (elbread=427 elab2=4815 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\shazz\Downloads\NTNU\MS_in_ESD\4th_semestar\Specialization_project\timer_design\dffDesign_pet\src\wave.asdb
+#  00:11, Wednesday, 24 May 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/wave.asdb'.
+run
+# KERNEL: clk time=                    0d=1, clr =1, q=1
+# KERNEL: clk time=                   15d=1, clr =1, q=0
+# KERNEL: clk time=                   28d=1, clr =0, q=0
+# KERNEL: clk time=                   56d=1, clr =1, q=0
+# KERNEL: clk time=                   61d=1, clr =1, q=1
+# KERNEL: clk time=                   76d=1, clr =1, q=0
+# KERNEL: clk time=                   84d=1, clr =0, q=0
+# KERNEL: clk time=                   98d=0, clr =0, q=0
+# KERNEL: clk time=                  112d=1, clr =0, q=0
+# KERNEL: clk time=                  126d=0, clr =0, q=0
+# KERNEL: clk time=                  140d=1, clr =1, q=0
+# KERNEL: clk time=                  153d=1, clr =1, q=1
+# KERNEL: clk time=                  154d=0, clr =1, q=1
+# KERNEL: clk time=                  168d=0, clr =1, q=0
+# KERNEL: clk time=                  168d=1, clr =1, q=0
+# KERNEL: clk time=                  182d=0, clr =1, q=0
+# KERNEL: clk time=                  183d=0, clr =1, q=1
+# KERNEL: clk time=                  196d=1, clr =0, q=1
+# KERNEL: clk time=                  210d=0, clr =0, q=1
+# KERNEL: clk time=                  224d=1, clr =0, q=1
+# KERNEL: clk time=                  238d=0, clr =0, q=1
+# KERNEL: clk time=                  252d=1, clr =0, q=1
+# KERNEL: clk time=                  266d=0, clr =0, q=1
+# KERNEL: clk time=                  280d=1, clr =0, q=1
+# KERNEL: clk time=                  294d=0, clr =0, q=1
+# RUNTIME: Info: RUNTIME_0068 ms_tb.sv (46): $finish called.
+# KERNEL: Time: 304 us,  Iteration: 0,  Instance: /ms_dff_tb,  Process: @INITIAL#12_2@.
+# KERNEL: stopped at time: 304 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +access +r +access +r+w ms_dff_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/ms_dff.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: dff_tb upcounter_tb fd1hz_tb GrayCounter_4b_tb tff_tb RippleCounter_4b_tb counter_tb ms_dff_tb SyncCounter_4b_tb SyncCounter_tb PLSC PLSC_4b_tb SCwith8bGC_tb AsRippleCounter_tb ms_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELBREAD: Warning: ELBREAD_0054 ms_tb.sv (7): Too few port connections. Region: /ms_dff_tb/dut_ms_dff
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 10 (83.33%) primitives and 2 (16.67%) other processes in SLP
+# SLP: 0 signals in SLP and 16 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5377 kB (elbread=427 elab2=4815 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\shazz\Downloads\NTNU\MS_in_ESD\4th_semestar\Specialization_project\timer_design\dffDesign_pet\src\wave.asdb
+#  00:15, Wednesday, 24 May 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/wave.asdb'.
+run
+# KERNEL: clk time=                    0d=1, clr =1, q=0
+# KERNEL: clk time=                   28d=1, clr =0, q=x
+# KERNEL: clk time=                   56d=1, clr =1, q=0
+# KERNEL: clk time=                   84d=1, clr =0, q=x
+# KERNEL: clk time=                   98d=0, clr =0, q=x
+# KERNEL: clk time=                  112d=1, clr =0, q=x
+# KERNEL: clk time=                  126d=0, clr =0, q=x
+# KERNEL: clk time=                  140d=1, clr =1, q=0
+# KERNEL: clk time=                  154d=0, clr =1, q=0
+# KERNEL: clk time=                  168d=1, clr =1, q=0
+# KERNEL: clk time=                  182d=0, clr =1, q=0
+# KERNEL: clk time=                  196d=1, clr =0, q=x
+# KERNEL: clk time=                  198d=1, clr =0, q=1
+# KERNEL: clk time=                  210d=0, clr =0, q=1
+# KERNEL: clk time=                  224d=1, clr =0, q=1
+# KERNEL: clk time=                  238d=0, clr =0, q=1
+# KERNEL: clk time=                  252d=1, clr =0, q=1
+# KERNEL: clk time=                  266d=0, clr =0, q=1
+# KERNEL: clk time=                  280d=1, clr =0, q=1
+# KERNEL: clk time=                  294d=0, clr =0, q=1
+# RUNTIME: Info: RUNTIME_0068 ms_tb.sv (46): $finish called.
+# KERNEL: Time: 304 us,  Iteration: 0,  Instance: /ms_dff_tb,  Process: @INITIAL#12_2@.
+# KERNEL: stopped at time: 304 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +access +r +access +r+w ms_dff_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/ms_dff.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: dff_tb upcounter_tb fd1hz_tb GrayCounter_4b_tb tff_tb RippleCounter_4b_tb counter_tb ms_dff_tb SyncCounter_4b_tb SyncCounter_tb PLSC PLSC_4b_tb SCwith8bGC_tb AsRippleCounter_tb ms_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELBREAD: Warning: ELBREAD_0054 ms_tb.sv (7): Too few port connections. Region: /ms_dff_tb/dut_ms_dff
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 10 (83.33%) primitives and 2 (16.67%) other processes in SLP
+# SLP: 0 signals in SLP and 16 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5377 kB (elbread=427 elab2=4815 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\shazz\Downloads\NTNU\MS_in_ESD\4th_semestar\Specialization_project\timer_design\dffDesign_pet\src\wave.asdb
+#  00:16, Wednesday, 24 May 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/wave.asdb'.
+run
+# KERNEL: clk time=                    0d=1, clr =1, q=x
+# KERNEL: clk time=                   28d=1, clr =0, q=x
+# KERNEL: clk time=                   56d=1, clr =1, q=x
+# KERNEL: clk time=                   84d=1, clr =0, q=x
+# KERNEL: clk time=                   98d=0, clr =0, q=x
+# KERNEL: clk time=                  112d=1, clr =0, q=x
+# KERNEL: clk time=                  126d=0, clr =0, q=x
+# KERNEL: clk time=                  140d=1, clr =1, q=x
+# KERNEL: clk time=                  154d=0, clr =1, q=x
+# KERNEL: clk time=                  168d=1, clr =1, q=x
+# KERNEL: clk time=                  182d=0, clr =1, q=x
+# KERNEL: clk time=                  196d=1, clr =0, q=x
+# KERNEL: clk time=                  198d=1, clr =0, q=1
+# KERNEL: clk time=                  210d=0, clr =0, q=1
+# KERNEL: clk time=                  224d=1, clr =0, q=1
+# KERNEL: clk time=                  238d=0, clr =0, q=1
+# KERNEL: clk time=                  252d=1, clr =0, q=1
+# KERNEL: clk time=                  266d=0, clr =0, q=1
+# KERNEL: clk time=                  280d=1, clr =0, q=1
+# KERNEL: clk time=                  294d=0, clr =0, q=1
+# RUNTIME: Info: RUNTIME_0068 ms_tb.sv (46): $finish called.
+# KERNEL: Time: 304 us,  Iteration: 0,  Instance: /ms_dff_tb,  Process: @INITIAL#12_2@.
+# KERNEL: stopped at time: 304 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/ms_dff.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: dff_tb upcounter_tb fd1hz_tb GrayCounter_4b_tb tff_tb RippleCounter_4b_tb counter_tb ms_dff_tb SyncCounter_4b_tb SyncCounter_tb PLSC PLSC_4b_tb SCwith8bGC_tb AsRippleCounter_tb ms_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +access +r +access +r+w ms_dff_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELBREAD: Warning: ELBREAD_0054 ms_tb.sv (7): Too few port connections. Region: /ms_dff_tb/dut_ms_dff
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 10 (83.33%) primitives and 2 (16.67%) other processes in SLP
+# SLP: 0 signals in SLP and 16 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5377 kB (elbread=427 elab2=4815 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\shazz\Downloads\NTNU\MS_in_ESD\4th_semestar\Specialization_project\timer_design\dffDesign_pet\src\wave.asdb
+#  00:17, Wednesday, 24 May 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/wave.asdb'.
+run
+# KERNEL: clk time=                    0d=1, clr =1, q=x
+# KERNEL: clk time=                   28d=1, clr =0, q=x
+# KERNEL: clk time=                   56d=1, clr =1, q=x
+# KERNEL: clk time=                   84d=1, clr =0, q=x
+# KERNEL: clk time=                   98d=0, clr =0, q=x
+# KERNEL: clk time=                  112d=1, clr =0, q=x
+# KERNEL: clk time=                  126d=0, clr =0, q=x
+# KERNEL: clk time=                  140d=1, clr =1, q=x
+# KERNEL: clk time=                  154d=0, clr =1, q=x
+# KERNEL: clk time=                  168d=1, clr =1, q=x
+# KERNEL: clk time=                  182d=0, clr =1, q=x
+# KERNEL: clk time=                  196d=1, clr =0, q=x
+# KERNEL: clk time=                  198d=1, clr =0, q=1
+# KERNEL: clk time=                  210d=0, clr =0, q=1
+# KERNEL: clk time=                  224d=1, clr =0, q=1
+# KERNEL: clk time=                  238d=0, clr =0, q=1
+# KERNEL: clk time=                  252d=1, clr =0, q=1
+# KERNEL: clk time=                  266d=0, clr =0, q=1
+# KERNEL: clk time=                  280d=1, clr =0, q=1
+# KERNEL: clk time=                  294d=0, clr =0, q=1
+# RUNTIME: Info: RUNTIME_0068 ms_tb.sv (46): $finish called.
+# KERNEL: Time: 304 us,  Iteration: 0,  Instance: /ms_dff_tb,  Process: @INITIAL#12_2@.
+# KERNEL: stopped at time: 304 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +access +r +access +r+w ms_dff_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELBREAD: Warning: ELBREAD_0054 ms_tb.sv (7): Too few port connections. Region: /ms_dff_tb/dut_ms_dff
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 10 (83.33%) primitives and 2 (16.67%) other processes in SLP
+# SLP: 0 signals in SLP and 16 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5377 kB (elbread=427 elab2=4815 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\shazz\Downloads\NTNU\MS_in_ESD\4th_semestar\Specialization_project\timer_design\dffDesign_pet\src\wave.asdb
+#  00:18, Wednesday, 24 May 2023
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/wave.asdb'.
+run
+# KERNEL: clk time=                    0d=1, clr =1, q=x
+# KERNEL: clk time=                   28d=1, clr =0, q=x
+# KERNEL: clk time=                   56d=1, clr =1, q=x
+# KERNEL: clk time=                   84d=1, clr =0, q=x
+# KERNEL: clk time=                   98d=0, clr =0, q=x
+# KERNEL: clk time=                  112d=1, clr =0, q=x
+# KERNEL: clk time=                  126d=0, clr =0, q=x
+# KERNEL: clk time=                  140d=1, clr =1, q=x
+# KERNEL: clk time=                  154d=0, clr =1, q=x
+# KERNEL: clk time=                  168d=1, clr =1, q=x
+# KERNEL: clk time=                  182d=0, clr =1, q=x
+# KERNEL: clk time=                  196d=1, clr =0, q=x
+# KERNEL: clk time=                  198d=1, clr =0, q=1
+# KERNEL: clk time=                  210d=0, clr =0, q=1
+# KERNEL: clk time=                  224d=1, clr =0, q=1
+# KERNEL: clk time=                  238d=0, clr =0, q=1
+# KERNEL: clk time=                  252d=1, clr =0, q=1
+# KERNEL: clk time=                  266d=0, clr =0, q=1
+# KERNEL: clk time=                  280d=1, clr =0, q=1
+# KERNEL: clk time=                  294d=0, clr =0, q=1
+# RUNTIME: Info: RUNTIME_0068 ms_tb.sv (46): $finish called.
+# KERNEL: Time: 304 us,  Iteration: 0,  Instance: /ms_dff_tb,  Process: @INITIAL#12_2@.
+# KERNEL: stopped at time: 304 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/dff.v $dsn/src/dff_tb.v $dsn/src/upcounter.sv $dsn/src/upcounter_tb.sv $dsn/src/fd1hz.sv $dsn/src/fd1hz_tb.sv $dsn/src/GrayCounter_4b.sv $dsn/src/GrayCounter_4b_tb.sv $dsn/src/tff.sv $dsn/src/tff_tb.sv $dsn/src/RippleCounter_4b.sv $dsn/src/RippleCounter_4b_tb.sv $dsn/src/counter.sv $dsn/src/counter_tb.sv $dsn/src/ms_dff.sv $dsn/src/ms_dff_tb.sv $dsn/src/SyncCounter_4b.sv $dsn/src/SyncCounter_4b_tb.sv $dsn/src/SyncCounter.sv $dsn/src/SyncCounter_tb.sv $dsn/src/ParallelLoadSC_4b.sv $dsn/src/ParallelLoadSC_4b_tb.sv $dsn/src/SCwith8bGC.sv $dsn/src/SCwith8bGC_tb.sv $dsn/src/AsRippleCounter.sv $dsn/src/AsRippleCounter_tb.sv $dsn/src/ms.sv $dsn/src/ms_tb.sv $dsn/src/SC_4b.sv $dsn/src/SC_4b_tb.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2505 SC_4b.sv : (2, 22): Duplicate identifier: SyncCounter_4b.
+# Error: VCP2562 SC_4b.sv : (3, 5): Redeclaration of port clk.
+# Error: VCP2505 SC_4b.sv : (3, 5): Duplicate identifier: clk.
+# Error: VCP2562 SC_4b.sv : (4, 5): Redeclaration of port cten.
+# Error: VCP2505 SC_4b.sv : (4, 5): Duplicate identifier: cten.
+# Error: VCP2562 SC_4b.sv : (5, 5): Redeclaration of port prs.
+# Error: VCP2505 SC_4b.sv : (5, 5): Duplicate identifier: prs.
+# Error: VCP2562 SC_4b.sv : (6, 5): Redeclaration of port clr.
+# Error: VCP2505 SC_4b.sv : (6, 5): Duplicate identifier: clr.
+# Error: VCP2562 SC_4b.sv : (7, 5): Redeclaration of port out.
+# Error: VCP2505 SC_4b.sv : (7, 5): Duplicate identifier: out.
+# Error: VCP2562 SC_4b.sv : (8, 5): Redeclaration of port tc.
+# Error: VCP2505 SC_4b.sv : (8, 5): Duplicate identifier: tc.
+# Error: VCP2505 SC_4b.sv : (10, 26): Duplicate identifier: connect_q.
+# Error: VCP2505 SC_4b.sv : (11, 27): Duplicate identifier: connect_qb.
+# Error: VCP2505 SC_4b.sv : (14, 23): Duplicate identifier: andout.
+# Error: VCP2505 SC_4b.sv : (15, 22): Duplicate identifier: xorout.
+# Error: VCP2505 SC_4b.sv : (21, 52): Duplicate identifier: G1.
+# Error: VCP2505 SC_4b.sv : (25, 50): Duplicate identifier: G2.
+# Error: VCP2505 SC_4b.sv : (26, 47): Duplicate identifier: G3.
+# Error: VCP2505 SC_4b.sv : (31, 63): Duplicate identifier: G4.
+# Error: VCP2505 SC_4b.sv : (32, 47): Duplicate identifier: G5.
+# Error: VCP2505 SC_4b.sv : (35, 98): Duplicate identifier: D0.
+# Error: VCP2505 SC_4b.sv : (36, 98): Duplicate identifier: D1.
+# Error: VCP2505 SC_4b.sv : (37, 98): Duplicate identifier: D2.
+# Error: VCP2505 SC_4b.sv : (38, 98): Duplicate identifier: D3.
+# Error: VCP2505 SC_4b.sv : (40, 63): Duplicate identifier: G6.
+# Error: VCP2505 SC_4b.sv : (41, 52): Duplicate identifier: G7.
+# Error: VCP7801 SC_4b_tb.sv : (3, 25): Duplicated declaration of unit SyncCounter_4b_tb.
+# Info: VCP7802 SyncCounter_4b_tb.sv : (3, 25): SyncCounter_4b_tb was already declared. See previous declaration.
+# Error: VCP2505 SC_4b_tb.sv : (4, 30): Duplicate identifier: cten.
+# Error: VCP2505 SC_4b_tb.sv : (4, 30): Duplicate identifier: clk.
+# Error: VCP2505 SC_4b_tb.sv : (4, 30): Duplicate identifier: prs.
+# Error: VCP2505 SC_4b_tb.sv : (4, 30): Duplicate identifier: clr.
+# Error: VCP2505 SC_4b_tb.sv : (5, 20): Duplicate identifier: out.
+# Error: VCP2505 SC_4b_tb.sv : (6, 13): Duplicate identifier: tc.
+# Error: VCP2505 SC_4b_tb.sv : (9, 88): Duplicate identifier: dut_SC.
+# Compile failure 36 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/ms_dff.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: dff_tb upcounter_tb fd1hz_tb GrayCounter_4b_tb tff_tb RippleCounter_4b_tb counter_tb ms_dff_tb SyncCounter_4b_tb SyncCounter_tb PLSC PLSC_4b_tb SCwith8bGC_tb AsRippleCounter_tb ms_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/ms_dff_tb.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module ms_dff found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: ms_dff_tb.
+# $root top modules: dff_tb upcounter_tb fd1hz_tb GrayCounter_4b_tb tff_tb RippleCounter_4b_tb counter_tb ms_dff_tb SyncCounter_4b_tb SyncCounter_tb PLSC PLSC_4b_tb SCwith8bGC_tb AsRippleCounter_tb ms_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +access +r +access +r+w ms_dff_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 10 (83.33%) primitives and 2 (16.67%) other processes in SLP
+# SLP: 0 signals in SLP and 17 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5377 kB (elbread=427 elab2=4815 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\shazz\Downloads\NTNU\MS_in_ESD\4th_semestar\Specialization_project\timer_design\dffDesign_pet\src\wave.asdb
+#  00:21, Wednesday, 24 May 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/wave.asdb'.
+run
+# KERNEL: clk time=                    0d=x, clr =1, q=x
+# KERNEL: clk time=                   14d=1, clr =1, q=x
+# KERNEL: clk time=                   15d=1, clr =1, q=0
+# KERNEL: clk time=                   28d=1, clr =0, q=1
+# KERNEL: clk time=                   42d=1, clr =1, q=1
+# KERNEL: clk time=                   46d=1, clr =1, q=0
+# KERNEL: clk time=                   70d=1, clr =0, q=0
+# KERNEL: clk time=                   76d=1, clr =0, q=1
+# KERNEL: clk time=                   84d=0, clr =0, q=1
+# KERNEL: clk time=                   98d=1, clr =0, q=1
+# KERNEL: clk time=                  112d=0, clr =0, q=1
+# KERNEL: clk time=                  126d=1, clr =1, q=1
+# KERNEL: clk time=                  136d=1, clr =0, q=1
+# KERNEL: clk time=                  140d=0, clr =0, q=1
+# KERNEL: clk time=                  154d=1, clr =0, q=1
+# KERNEL: clk time=                  168d=0, clr =0, q=1
+# KERNEL: clk time=                  182d=1, clr =0, q=1
+# KERNEL: clk time=                  196d=0, clr =0, q=1
+# KERNEL: clk time=                  198d=0, clr =0, q=0
+# KERNEL: clk time=                  210d=1, clr =0, q=0
+# KERNEL: clk time=                  224d=0, clr =0, q=0
+# KERNEL: clk time=                  238d=1, clr =0, q=0
+# KERNEL: clk time=                  252d=0, clr =0, q=0
+# KERNEL: clk time=                  266d=1, clr =0, q=0
+# KERNEL: clk time=                  280d=0, clr =0, q=0
+# RUNTIME: Info: RUNTIME_0068 ms_dff_tb.sv (45): $finish called.
+# KERNEL: Time: 290 us,  Iteration: 0,  Instance: /ms_dff_tb,  Process: @INITIAL#12_2@.
+# KERNEL: stopped at time: 290 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/dff.v $dsn/src/dff_tb.v $dsn/src/upcounter.sv $dsn/src/upcounter_tb.sv $dsn/src/fd1hz.sv $dsn/src/fd1hz_tb.sv $dsn/src/GrayCounter_4b.sv $dsn/src/GrayCounter_4b_tb.sv $dsn/src/tff.sv $dsn/src/tff_tb.sv $dsn/src/RippleCounter_4b.sv $dsn/src/RippleCounter_4b_tb.sv $dsn/src/counter.sv $dsn/src/counter_tb.sv $dsn/src/ms_dff.sv $dsn/src/ms_dff_tb.sv $dsn/src/SyncCounter_4b.sv $dsn/src/SyncCounter_4b_tb.sv $dsn/src/SyncCounter.sv $dsn/src/SyncCounter_tb.sv $dsn/src/ParallelLoadSC_4b.sv $dsn/src/ParallelLoadSC_4b_tb.sv $dsn/src/SCwith8bGC.sv $dsn/src/SCwith8bGC_tb.sv $dsn/src/AsRippleCounter.sv $dsn/src/AsRippleCounter_tb.sv $dsn/src/ms.sv $dsn/src/ms_tb.sv $dsn/src/SC_4b.sv $dsn/src/SC_4b_tb.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2505 SC_4b.sv : (2, 22): Duplicate identifier: SyncCounter_4b.
+# Error: VCP2562 SC_4b.sv : (3, 5): Redeclaration of port clk.
+# Error: VCP2505 SC_4b.sv : (3, 5): Duplicate identifier: clk.
+# Error: VCP2562 SC_4b.sv : (4, 5): Redeclaration of port cten.
+# Error: VCP2505 SC_4b.sv : (4, 5): Duplicate identifier: cten.
+# Error: VCP2562 SC_4b.sv : (5, 5): Redeclaration of port prs.
+# Error: VCP2505 SC_4b.sv : (5, 5): Duplicate identifier: prs.
+# Error: VCP2562 SC_4b.sv : (6, 5): Redeclaration of port clr.
+# Error: VCP2505 SC_4b.sv : (6, 5): Duplicate identifier: clr.
+# Error: VCP2562 SC_4b.sv : (7, 5): Redeclaration of port out.
+# Error: VCP2505 SC_4b.sv : (7, 5): Duplicate identifier: out.
+# Error: VCP2562 SC_4b.sv : (8, 5): Redeclaration of port tc.
+# Error: VCP2505 SC_4b.sv : (8, 5): Duplicate identifier: tc.
+# Error: VCP2505 SC_4b.sv : (10, 26): Duplicate identifier: connect_q.
+# Error: VCP2505 SC_4b.sv : (11, 27): Duplicate identifier: connect_qb.
+# Error: VCP2505 SC_4b.sv : (14, 23): Duplicate identifier: andout.
+# Error: VCP2505 SC_4b.sv : (15, 22): Duplicate identifier: xorout.
+# Error: VCP2505 SC_4b.sv : (21, 52): Duplicate identifier: G1.
+# Error: VCP2505 SC_4b.sv : (25, 50): Duplicate identifier: G2.
+# Error: VCP2505 SC_4b.sv : (26, 47): Duplicate identifier: G3.
+# Error: VCP2505 SC_4b.sv : (31, 63): Duplicate identifier: G4.
+# Error: VCP2505 SC_4b.sv : (32, 47): Duplicate identifier: G5.
+# Error: VCP2505 SC_4b.sv : (35, 98): Duplicate identifier: D0.
+# Error: VCP2505 SC_4b.sv : (36, 98): Duplicate identifier: D1.
+# Error: VCP2505 SC_4b.sv : (37, 98): Duplicate identifier: D2.
+# Error: VCP2505 SC_4b.sv : (38, 98): Duplicate identifier: D3.
+# Error: VCP2505 SC_4b.sv : (40, 63): Duplicate identifier: G6.
+# Error: VCP2505 SC_4b.sv : (41, 52): Duplicate identifier: G7.
+# Error: VCP7801 SC_4b_tb.sv : (3, 25): Duplicated declaration of unit SyncCounter_4b_tb.
+# Info: VCP7802 SyncCounter_4b_tb.sv : (3, 25): SyncCounter_4b_tb was already declared. See previous declaration.
+# Error: VCP2505 SC_4b_tb.sv : (4, 30): Duplicate identifier: cten.
+# Error: VCP2505 SC_4b_tb.sv : (4, 30): Duplicate identifier: clk.
+# Error: VCP2505 SC_4b_tb.sv : (4, 30): Duplicate identifier: prs.
+# Error: VCP2505 SC_4b_tb.sv : (4, 30): Duplicate identifier: clr.
+# Error: VCP2505 SC_4b_tb.sv : (5, 20): Duplicate identifier: out.
+# Error: VCP2505 SC_4b_tb.sv : (6, 13): Duplicate identifier: tc.
+# Error: VCP2505 SC_4b_tb.sv : (9, 88): Duplicate identifier: dut_SC.
+# Compile failure 36 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign_pet $dsn/src/dff.v $dsn/src/dff_tb.v $dsn/src/upcounter.sv $dsn/src/upcounter_tb.sv $dsn/src/fd1hz.sv $dsn/src/fd1hz_tb.sv $dsn/src/GrayCounter_4b.sv $dsn/src/GrayCounter_4b_tb.sv $dsn/src/tff.sv $dsn/src/tff_tb.sv $dsn/src/RippleCounter_4b.sv $dsn/src/RippleCounter_4b_tb.sv $dsn/src/counter.sv $dsn/src/counter_tb.sv $dsn/src/ms_dff.sv $dsn/src/ms_dff_tb.sv $dsn/src/SyncCounter_4b.sv $dsn/src/SyncCounter_4b_tb.sv $dsn/src/SyncCounter.sv $dsn/src/SyncCounter_tb.sv $dsn/src/ParallelLoadSC_4b.sv $dsn/src/ParallelLoadSC_4b_tb.sv $dsn/src/SCwith8bGC.sv $dsn/src/SCwith8bGC_tb.sv $dsn/src/AsRippleCounter.sv $dsn/src/AsRippleCounter_tb.sv $dsn/src/ms.sv $dsn/src/ms_tb.sv $dsn/src/SC_4b.sv $dsn/src/SC_4b_tb.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2505 SC_4b.sv : (2, 22): Duplicate identifier: SyncCounter_4b.
+# Error: VCP2562 SC_4b.sv : (3, 5): Redeclaration of port clk.
+# Error: VCP2505 SC_4b.sv : (3, 5): Duplicate identifier: clk.
+# Error: VCP2562 SC_4b.sv : (4, 5): Redeclaration of port cten.
+# Error: VCP2505 SC_4b.sv : (4, 5): Duplicate identifier: cten.
+# Error: VCP2562 SC_4b.sv : (5, 5): Redeclaration of port prs.
+# Error: VCP2505 SC_4b.sv : (5, 5): Duplicate identifier: prs.
+# Error: VCP2562 SC_4b.sv : (6, 5):

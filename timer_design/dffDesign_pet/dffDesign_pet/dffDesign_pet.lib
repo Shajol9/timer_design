@@ -1,0 +1,321 @@
+timestamp=1684920207644
+
+[~A]
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/4bGrayCounter.sv=0*165131*165710
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/AsRippleCounter.sv=0*1361926*1362763
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/AsRippleCounter_tb.sv=0*1364012*1364820
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/GrayCounter_4b.sv=0*727495*728684
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/GrayCounter_4b_tb.sv=0*654733*655572
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/RippleCounter_4b .sv=0*251699*252538
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/RippleCounter_4b.sv=0*1150463*1151333
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/RippleCounter_4b_tb.sv=0*1355630*1356455
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/SC_4b.sv=0*1476848*1477851
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/SC_4b_tb.sv=0*1479103*1479917
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/SCwith8bGC.sv=0*1084052*1085028
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/SCwith8bGC_tb.sv=0*1072535*1073370
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/SyncCounter.sv=0*1067994*1068955
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/SyncCounter_4b.sv=0*993797*994729
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/SyncCounter_4b_tb.sv=0*1022193*1023016
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/SyncCounter_tb.sv=0*1041048*1041884
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/counter.sv=0*991590*992515
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/counter.sv_counter_tb.sv=0*568308*569536
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/counter_tb.sv=0*664701*665549
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v=0*306724*307404
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv=0*133655*135302
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv=0*162048*163892
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv=0*193600*196139
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv=0*208451*210911
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b .sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv=0*336481*340162
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b.sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv=0*346329*350009
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b.sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv_ms_dff.sv_ms_dff_tb.sv=0*754899*759258
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b.sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv_ms_dff.sv_ms_dff_tb.sv_SyncCounter_4b.sv=0*768442*773171
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b.sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv_ms_dff.sv_ms_dff_tb.sv_SyncCounter_4b.sv_SyncCounter_4b_tb.sv=0*819810*824576
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b.sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv_ms_dff.sv_ms_dff_tb.sv_SyncCounter_4b.sv_SyncCounter_4b_tb.sv_SyncCounter.sv_SyncCounter_tb.sv=0*971238*976901
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b.sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv_ms_dff.sv_ms_dff_tb.sv_SyncCounter_4b.sv_SyncCounter_4b_tb.sv_SyncCounter.sv_SyncCounter_tb.sv_ParallelLoadSC.sv=0*1000188*1006205
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b.sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv_ms_dff.sv_ms_dff_tb.sv_SyncCounter_4b.sv_SyncCounter_4b_tb.sv_SyncCounter.sv_SyncCounter_tb.sv_ParallelLoadSC_4b.sv_ParallelLoadSC_4b_tb.sv=0*1030941*1037097
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b.sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv_ms_dff.sv_ms_dff_tb.sv_SyncCounter_4b.sv_SyncCounter_4b_tb.sv_SyncCounter.sv_SyncCounter_tb.sv_ParallelLoadSC_4b.sv_ParallelLoadSC_4b_tb.sv_SCwith8bGC.sv_SCwith8bGC_tb.sv_AsRippleCounter.sv=0*1121268*1127970
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b.sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv_ms_dff.sv_ms_dff_tb.sv_SyncCounter_4b.sv_SyncCounter_4b_tb.sv_SyncCounter.sv_SyncCounter_tb.sv_ParallelLoadSC_4b.sv_ParallelLoadSC_4b_tb.sv_SCwith8bGC.sv_SCwith8bGC_tb.sv_AsRippleCounter.sv_AsRippleCounter_tb.sv=0*1428542*1435458
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv_upcounter_tb.sv_fd1hz.sv_fd1hz_tb.sv_GrayCounter_4b.sv_GrayCounter_4b_tb.sv_tff.sv_tff_tb.sv_RippleCounter_4b.sv_RippleCounter_4b_tb.sv_counter.sv_counter_tb.sv_ms_dff.sv_ms_dff_tb.sv_SyncCounter_4b.sv_SyncCounter_4b_tb.sv_SyncCounter.sv_SyncCounter_tb.sv_ParallelLoadSC_4b.sv_ParallelLoadSC_4b_tb.sv_SCwith8bGC.sv_SCwith8bGC_tb.sv_AsRippleCounter.sv_AsRippleCounter_tb.sv_ms.sv_ms_tb.sv_SC_4b.sv_SC_4b_tb.sv=0*1508083*1515739
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff_tb.v=0*30289*31164
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/fd1hz.sv=0*153790*154521
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/fd1hz.sv_fd1hz_tb.sv=0*151674*152673
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/fd1hz_tb.sv=0*159262*160012
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/ms.sv=0*1474782*1475526
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/ms_dff.sv=0*1497694*1498442
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/ms_dff_tb.sv=0*1499694*1500589
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/ms_tb.sv=0*1463941*1464816
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/tff.sv=0*202992*203641
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/tff_tb.sv=0*214168*215044
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/upcounter.sv=0*136458*137353
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/upcounter.sv_upcounter_tb.sv=0*99273*100633
+C:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/upcounter_tb.sv=0*131227*131997
+LastVerilogToplevel=SC_4b_tb
+ModifyID=384
+Version=74
+c:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v=0*2055*2703
+c:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v=0*12312*13401
+c:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/dff.v_dff_tb.v_upcounter.sv=0*19360*21055
+c:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/upcounter.sv=0*24477*25548
+c:/Users/shazz/Downloads/NTNU/MS_in_ESD/4th_semestar/Specialization_project/timer_design/dffDesign_pet/src/upcounter_tb.sv=0*28459*29229
+
+[~MFT]
+0=33|0dffDesign_pet.mgf|1515739|855846
+1=60|1dffDesign_pet.mgf|4676028|4599787
+3=120|3dffDesign_pet.mgf|3073261|3024995
+
+[$root]
+A/$root=22|||1*4605382
+BinW64/$root=3*3026254
+SLP=3*3026369
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c921633c70e340803cc03e8dd062787e76d07
+
+[AsRippleCounter]
+A/AsRippleCounter=22|../src/AsRippleCounter.sv|3|1*4664245
+BinW64/AsRippleCounter=3*3065074
+R=../src/AsRippleCounter.sv|3
+SLP=3*3065371
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ae5124a216005431094e16b2cb211303c5c7c58297e9e65802e8222fd8a69ea17bcfc89c2e03a6cc4679a26e4f95b2bc
+
+[AsRippleCounter_tb]
+A/AsRippleCounter_tb=22|../src/AsRippleCounter_tb.sv|3|1*4666621
+BinW64/AsRippleCounter_tb=3*3065793
+R=../src/AsRippleCounter_tb.sv|3
+SLP=3*3067081
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ae5124a216005431094e16b2cb21130377f2b13cf8e2cae6de951ebc1e68ddfcdb7869dcb689b48954ae683977d0b8b9
+
+[GrayCounter_4b]
+A/GrayCounter_4b=22|../src/GrayCounter_4b.sv|3|1*4618350
+BinW64/GrayCounter_4b=3*3036104
+R=../src/GrayCounter_4b.sv|3
+SLP=3*3036472
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|fb94d6262168269f8b1788a588486fddb2eaa0cd7ea7702b57317fbfa9586559d98cfa5d2e4f294f061304d1550c3527
+
+[GrayCounter_4b_tb]
+A/GrayCounter_4b_tb=22|../src/GrayCounter_4b_tb.sv|3|1*4626002
+BinW64/GrayCounter_4b_tb=3*3037808
+R=../src/GrayCounter_4b_tb.sv|3
+SLP=3*3039202
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|fb94d6262168269f8b1788a588486fdd4dda1f4082a1c31c427ca19f6e8536ffb133ba9d19f6c4e90e7499e7e5485beb
+
+[PLSC]
+A/PLSC=22|../src/ParallelLoadSC.sv|2|1*2939438
+BinW64/PLSC=3*1975544
+R=../src/ParallelLoadSC.sv|2
+SLP=3*1975902
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ad5c1777f03c7032d851c2f5ac61897bcc6259495681aa1806ca403dc4ddd7a9
+
+[PLSC_4b]
+A/PLSC_4b=22|../src/ParallelLoadSC_4b.sv|2|1*4651787
+BinW64/PLSC_4b=3*3058855
+R=../src/ParallelLoadSC_4b.sv|2
+SLP=3*3059216
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|4792025000abad7879b44357d1130c9526527262ddaa47cb266f3a3c4d9b973a22511b46ee289e515e92b534a1e68e4e
+
+[PLSC_4b_tb]
+A/PLSC_4b_tb=22|../src/ParallelLoadSC_4b_tb.sv|3|1*4657400
+BinW64/PLSC_4b_tb=3*3060122
+R=../src/ParallelLoadSC_4b_tb.sv|3
+SLP=3*3061575
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e91f5e6e26615a451d1dee64bc6f04894a8a104d3cc1ab3d1b168fec783084547a7b8a9599bc2a708c6f97b13a1165df
+
+[RippleCounter_4b]
+A/RippleCounter_4b=22|../src/RippleCounter_4b.sv|2|1*4630709
+BinW64/RippleCounter_4b=3*3043399
+R=../src/RippleCounter_4b.sv|2
+SLP=3*3044328
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6bc7c6833bc082b0e88f8696770291ae6cc406655e2f4edf76c3ad284d43a5c0fa68333290c579d70f94b176ab437906
+
+[RippleCounter_4b_tb]
+A/RippleCounter_4b_tb=22|../src/RippleCounter_4b_tb.sv|3|1*4634160
+BinW64/RippleCounter_4b_tb=3*3044861
+R=../src/RippleCounter_4b_tb.sv|3
+SLP=3*3046236
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6bc7c6833bc082b0e88f8696770291ae45ea43a79564af73d7c3f345c7be7052994cc385714f9392e73dea8a5707079a
+
+[SC_4b]
+A/SC_4b=22|../src/SC_4b.sv|2|1*4672271
+BinW64/SC_4b=3*3070891
+R=../src/SC_4b.sv|2
+SLP=3*3071250
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|8b2d0f47d17cd8816b8106f6a6b7a180114bd36d081557c22b02ef2c4df48af2
+
+[SC_4b_tb]
+A/SC_4b_tb=22|../src/SC_4b_tb.sv|3|1*4676028
+BinW64/SC_4b_tb=3*3071911
+R=../src/SC_4b_tb.sv|3
+SLP=3*3073261
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|5b15deba358ae89584cbb46c596af7bf91c04bc54c99aced133ef6071c544038eebf5a2691f8a3e381f46f191f953513
+
+[SCwith8bGC]
+A/SCwith8bGC=22|../src/SCwith8bGC.sv|2|1*4659271
+BinW64/SCwith8bGC=3*3062365
+R=../src/SCwith8bGC.sv|2
+SLP=3*3062485
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|54c7d7341f79db5ca2aa81f5d2fc538bd18bb31505b5d13a6d82d654084abdc04abee4576b59500722d4455fef05e8ba
+
+[SCwith8bGC_tb]
+A/SCwith8bGC_tb=22|../src/SCwith8bGC_tb.sv|3|1*4662539
+BinW64/SCwith8bGC_tb=3*3063046
+R=../src/SCwith8bGC_tb.sv|3
+SLP=3*3064406
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|a4b477adfb25a3ba3b997c9753036749c67d4e3002b4970e1078846c661a6d7ea5c3879e07823273cf551d0180d59211
+
+[SyncCounter]
+A/SyncCounter=22|../src/SyncCounter.sv|2|1*4646930
+BinW64/SyncCounter=3*3056174
+R=../src/SyncCounter.sv|2
+SLP=3*3056295
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c9a2d7a2e6d9d27f1093137cf930191577f5747d691b03fc3e78504410942c6d6696d545d896632e5a21f3e24f2a2432
+
+[SyncCounter_4b]
+A/SyncCounter_4b=22|../src/SyncCounter_4b.sv|2|1*4641929
+BinW64/SyncCounter_4b=3*3053149
+R=../src/SyncCounter_4b.sv|2
+SLP=3*3053517
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|a88496452c32e219876da9f21036dfa470d2164d54f00db61db3b0ed47f7ca6b6c9589b11601b3af54d0e8d1d0992482
+
+[SyncCounter_4b_tb]
+A/SyncCounter_4b_tb=22|../src/SyncCounter_4b_tb.sv|3|1*4645260
+BinW64/SyncCounter_4b_tb=3*3054118
+R=../src/SyncCounter_4b_tb.sv|3
+SLP=3*3055478
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|a88496452c32e219876da9f21036dfa4ee094b13b2f8ec95c20b5613757b0bd42373aa679d2b4ac4b7b3f7901cdd30e7
+
+[SyncCounter_tb]
+A/SyncCounter_tb=22|../src/SyncCounter_tb.sv|3|1*4650082
+BinW64/SyncCounter_tb=3*3056823
+R=../src/SyncCounter_tb.sv|3
+SLP=3*3058185
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|3f98c36a28742e02ab2e83af90a45b03bd2efebf30164d97139e5e4fff133f82f2ede6c57e97e3d7616f10af5c271e46
+
+[counter]
+A/counter=22|../src/counter.sv|3|1*4635809
+BinW64/counter=3*3046912
+R=../src/counter.sv|3
+SLP=3*3047525
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ec8a9ceecd40c97da6d5687ce01e262f26527262ddaa47cb266f3a3c4d9b973aaf7dc8264994c22f83b57fceaa6d3a1d
+
+[counter_tb]
+A/counter_tb=22|../src/counter_tb.sv|3|1*4638600
+BinW64/counter_tb=3*3048216
+R=../src/counter_tb.sv|3
+SLP=3*3049568
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|bb2263b5ebb3063423436e483d1b408cf2251e2d7ebe3b4833eead6b690f451811833fe80adb18661d4db7e4487a77d0
+
+[dff]
+A/dff=22|../src/dff.v|24|1*4605884
+BinW64/dff=3*3026437
+R=../src/dff.v|24
+SLP=3*3026550
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6a4f0a87167aa7fed99534ff2dffab1b8c547742f756c67f565e53c9f2fabe80
+
+[dff_tb]
+A/dff_tb=22|../src/dff_tb.v|23|1*4607755
+BinW64/dff_tb=3*3026659
+R=../src/dff_tb.v|23
+SLP=3*3028446
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ed8a83c587987adc69b29cf6ce17cb15adf47d6aa746abb71d71f635cf8bc3f7
+
+[fd1hz]
+A/fd1hz=22|../src/fd1hz.sv|3|1*4614501
+BinW64/fd1hz=3*3033106
+R=../src/fd1hz.sv|3
+SLP=3*3033876
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|45d2736bd3abd5a5bb27c42814fa57f70a6cb181bb6d48fdf0c90c1e94cc56d7
+
+[fd1hz_tb]
+A/fd1hz_tb=22|../src/fd1hz_tb.sv|3|1*4616972
+BinW64/fd1hz_tb=3*3034239
+R=../src/fd1hz_tb.sv|3
+SLP=3*3035504
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|71f05a8db1eacacf4f9f07e1471c75e6bd222831cd4e4e29cd5504dd88972ed376b416fbf5cb1711500fec90a1f1e470
+
+[ms]
+A/ms=22|../src/ms.sv|3|1*4668233
+BinW64/ms=3*3067692
+R=../src/ms.sv|3
+SLP=3*3067804
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b6613cbcb5559930eecaa19beb8142b6832570e3e9e3abae11e04591275d30f7
+
+[ms_dff]
+A/ms_dff=22|../src/ms_dff.sv|3|1*4623601
+BinW64/ms_dff=3*3037418
+R=../src/ms_dff.sv|3
+SLP=3*3037534
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|d29293c79164e9961e8a68b18cff1fe9d28e7ce35f814515392184f740051233
+
+[ms_dff_tb]
+A/ms_dff_tb=22|../src/ms_dff_tb.sv|3|1*4640273
+BinW64/ms_dff_tb=3*3050223
+R=../src/ms_dff_tb.sv|3
+SLP=3*3051987
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b1081dd88a87f096593685de35c326e8a283e19c6dc439dd273f2bfc88fe18165045851595681d7bb3137528955b1aea
+
+[ms_tb]
+A/ms_tb=22|../src/ms_tb.sv|3|1*4670664
+BinW64/ms_tb=3*3068062
+R=../src/ms_tb.sv|3
+SLP=3*3069776
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|969e70e3d707035b0bfb1ad1e03a26c1114bd36d081557c22b02ef2c4df48af2
+
+[tff]
+A/tff=22|../src/tff.sv|3|1*4627672
+BinW64/tff=3*3039914
+R=../src/tff.sv|3
+SLP=3*3040183
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|0c00345ad7fb6fd0846289e8b5bbfd44e4bede9022d5b94ac77455ad241a6a1c
+
+[tff_tb]
+A/tff_tb=22|../src/tff_tb.sv|3|1*4629094
+BinW64/tff_tb=3*3040327
+R=../src/tff_tb.sv|3
+SLP=3*3042119
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|a05a118f1f26d55de4e9d863dc84fcc9c598f44c828ff91c0dd6bda6100a4f6f
+
+[upcounter]
+A/upcounter=22|../src/upcounter.sv|23|1*4609376
+BinW64/upcounter=3*3029763
+R=../src/upcounter.sv|23
+SLP=3*3030755
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|22447c1ca1a4c6c3b8c64e29263aadd7bac2650d2b0fa07cece760e79c8f22c6f19d97dca4e35483d16a01cd7ee38171
+
+[upcounter_tb]
+A/upcounter_tb=22|../src/upcounter_tb.sv|3|1*4613017
+BinW64/upcounter_tb=3*3031244
+R=../src/upcounter_tb.sv|3
+SLP=3*3032520
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|69128d8179a3b22a215444d5b53593f882dd02d6019ee54941438a5cc718cf04a03b633e7323a5bf70614968435c9755
+
+[~U]
+$root=12|0*1501285|
+AsRippleCounter=12|0*1506819|
+AsRippleCounter_tb=12|0*1507090||0x10
+GrayCounter_4b=12|0*1502802|
+GrayCounter_4b_tb=12|0*1503282||0x10
+PLSC=12|0*999933||0x10
+PLSC_4b=12|0*1505868|
+PLSC_4b_tb=12|0*1506128||0x10
+RippleCounter_4b=12|0*1503869|
+RippleCounter_4b_tb=12|0*1504109||0x10
+SC_4b=12|0*1507664|
+SC_4b_tb=12|0*1507906||0x10
+SCwith8bGC=12|0*1506313|
+SCwith8bGC_tb=12|0*1506607||0x10
+SyncCounter=12|0*1505392|
+SyncCounter_4b=12|0*1504931|
+SyncCounter_4b_tb=12|0*1505193||0x10
+SyncCounter_tb=12|0*1505670||0x10
+counter=12|0*1504300|
+counter_tb=12|0*1504568||0x10
+dff=12|0*1501675|
+dff_tb=12|0*1501883||0x10
+fd1hz=12|0*1502436|
+fd1hz_tb=12|0*1502635||0x10
+ms=12|0*1507295|
+ms_dff=12|0*1503062|
+ms_dff_tb=12|0*1504762||0x10
+ms_tb=12|0*1507503||0x10
+tff=12|0*1503481|
+tff_tb=12|0*1503700||0x10
+upcounter=12|0*1502046|
+upcounter_tb=12|0*1502261||0x10
